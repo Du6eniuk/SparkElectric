@@ -50,4 +50,4 @@ The nav links jump to sections on the one page; there are no separate subpages.
 
 ## About the content
 
-The business name is real; everything else is placeholder copy for the demo. The phone number, email, reviews, ratings, job counts and claims such as "licensed & insured", "state-certified" and the 2-year warranty are invented and should be replaced before this is used as a live business site. A live site should also show the contractor's real license number. The quote form validates and shows a confirmation, but sends nothing: there's a marked spot in `js/main.js` for connecting a form service.
+The business name and phone number are real; everything else is placeholder copy for the demo. The email, reviews, ratings, job counts and claims such as "licensed & insured", "state-certified" and the 2-year warranty are invented and should be replaced before this is used as a live business site. A live site should also show the contractor's real license number. The quote form validates and shows a confirmation, but sends nothing: there's a marked spot in `js/main.js` for connecting a form service.
