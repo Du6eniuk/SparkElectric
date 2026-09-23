@@ -1,0 +1,569 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Electrician in South Florida | SparkElectric · Licensed &amp; 24/7</title>
+  <meta name="description" content="Licensed South Florida electricians for panel upgrades, EV chargers, generators, lighting and same-day repairs. Upfront flat-rate pricing and a 24/7 emergency line.">
+  <link rel="canonical" href="https://sparkelectricfl.com/">
+  <meta name="theme-color" content="#17133F">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="SparkElectric">
+  <meta property="og:title" content="SparkElectric | Keeping Florida bright">
+  <meta property="og:description" content="Panel upgrades, EV chargers, generators and same-day electrical repairs from licensed electricians, on call 24/7 across South Florida.">
+  <meta property="og:url" content="https://sparkelectricfl.com/">
+  <meta property="og:image" content="https://sparkelectricfl.com/images/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="images/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Sacramento&family=Tilt+Neon&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+  <script>document.documentElement.classList.add("js");</script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Electrician",
+    "name": "SparkElectric",
+    "url": "https://sparkelectricfl.com/",
+    "logo": "https://sparkelectricfl.com/images/logo.svg",
+    "image": "https://sparkelectricfl.com/images/og-image.jpg",
+    "telephone": "+1-954-555-0162",
+    "email": "hello@sparkelectricfl.com",
+    "priceRange": "$$",
+    "address": { "@type": "PostalAddress", "addressLocality": "Fort Lauderdale", "addressRegion": "FL", "addressCountry": "US" },
+    "areaServed": ["Fort Lauderdale", "Hollywood", "Pembroke Pines", "Miramar", "Weston", "Davie", "Plantation", "Coral Springs", "Pompano Beach", "Boca Raton", "Miami", "Miami Beach"],
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "opens": "00:00",
+      "closes": "23:59"
+    }]
+  }
+  </script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- Icon sprite, neon filters and shared illustration pieces -->
+<svg class="sprite" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+  <defs>
+    <!-- Neon glow: blurs each tube in its own colour at three radii, then lays the sharp tube on top -->
+    <filter id="neon-glow" filterUnits="userSpaceOnUse" x="-60" y="-60" width="220" height="220" color-interpolation-filters="sRGB">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1.2" result="near"/>
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3.5" result="mid"/>
+      <feGaussianBlur in="SourceGraphic" stdDeviation="9" result="far"/>
+      <feMerge><feMergeNode in="far"/><feMergeNode in="mid"/><feMergeNode in="near"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <!-- Softer glow for the thin trims on the skyline -->
+    <filter id="neon-soft" filterUnits="userSpaceOnUse" x="-20" y="-20" width="1960" height="280" color-interpolation-filters="sRGB">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <path id="star-shape" d="M12 2.8l2.8 5.8 6.3.9-4.6 4.4 1.1 6.3L12 17.2l-5.6 3 1.1-6.3L2.9 9.5l6.3-.9z"/>
+    <!-- Palm silhouette for the skyline, crown at 0,0 -->
+    <g id="palm">
+      <path d="M-3 0C-1 84 7 170 16 262h11C19 170 10 84 4 0Z"/>
+      <path d="M0 0C-18-14-50-20-86-6-54-8-26-4 0 0Z"/>
+      <path d="M0 0C-22 0-50 12-72 38-48 16-24 6 0 0Z"/>
+      <path d="M0 0C-10-22-32-40-60-46-36-34-16-18 0 0Z"/>
+      <path d="M0 0C6-24 24-42 48-50 28-36 12-20 0 0Z"/>
+      <path d="M0 0C20-14 50-18 80-4 50-6 24-4 0 0Z"/>
+      <path d="M0 0C18 2 44 14 62 40 40 18 20 8 0 0Z"/>
+      <path d="M0 0C-2-20 4-40 18-56 8-36 4-18 0 0Z"/>
+    </g>
+  </defs>
+
+  <!-- The logo's palm, as neon tubes. Colours come from custom properties. -->
+  <symbol id="mark" viewBox="4 6 94 94">
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke-width="7" style="stroke: var(--mark-frond, #3DF2F0)" d="M56 40C44 27 25 26 11 42M56 40C50 23 37 13 22 13M56 40C62 22 75 14 89 17M56 40C69 29 85 31 93 47"/>
+      <path stroke-width="8" style="stroke: var(--mark-trunk, #FF5C8D)" d="M56 44 45 66H56L43 93"/>
+    </g>
+  </symbol>
+  <symbol id="i-stars" viewBox="0 0 120 24"><use href="#star-shape"/><use href="#star-shape" x="24"/><use href="#star-shape" x="48"/><use href="#star-shape" x="72"/><use href="#star-shape" x="96"/></symbol>
+
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M6.6 3.5h2.2c.5 0 .9.3 1 .8l.8 3.4c.1.4-.1.9-.5 1.1L8.6 9.9a12 12 0 0 0 5.5 5.5l1.1-1.5c.2-.4.7-.6 1.1-.5l3.4.8c.5.1.8.5.8 1v2.2c0 1-.8 1.9-1.9 1.9A15.8 15.8 0 0 1 4.7 5.4c0-1 .9-1.9 1.9-1.9Z"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><path d="M4 6h16a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1Z"/><path d="m3.5 7.5 8.5 6 8.5-6"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21.5s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11Z"/><circle cx="12" cy="10.5" r="2.4"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.5 4.2 4.2L19 7"/></symbol>
+  <symbol id="i-lock" viewBox="0 0 24 24"><rect x="5" y="10.5" width="14" height="10" rx="2"/><path d="M8 10.5V8a4 4 0 0 1 8 0v2.5"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3.2 19 6v5.3c0 4.6-3 8.3-7 9.6-4-1.3-7-5-7-9.6V6l7-2.8Z"/><path d="m9 12 2.2 2.2L15.5 10"/></symbol>
+  <symbol id="i-tag" viewBox="0 0 24 24"><path d="M3.5 12.2V4.5a1 1 0 0 1 1-1h7.7l8.3 8.3a1 1 0 0 1 0 1.4l-7.1 7.1a1 1 0 0 1-1.4 0Z"/><circle cx="8" cy="8" r="1.5"/></symbol>
+  <symbol id="i-award" viewBox="0 0 24 24"><circle cx="12" cy="9" r="5.5"/><path d="M8.6 13.4 7.5 21l4.5-2.6 4.5 2.6-1.1-7.6"/></symbol>
+  <symbol id="i-alert" viewBox="0 0 24 24"><path d="M10.3 4.6 2.9 17.5A2 2 0 0 0 4.6 20.5h14.8a2 2 0 0 0 1.7-3L13.7 4.6a2 2 0 0 0-3.4 0Z"/><path d="M12 9.5v4.2M12 17h.01"/></symbol>
+  <symbol id="i-panel" viewBox="0 0 24 24"><rect x="5" y="3" width="14" height="18" rx="1.6"/><path d="M12 6v12M8.4 7.5h1.8M13.8 7.5h1.8M8.4 11h1.8M13.8 11h1.8M8.4 14.5h1.8M13.8 14.5h1.8"/></symbol>
+  <symbol id="i-ev" viewBox="0 0 24 24"><path d="M5 20.5V5.5a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v15M3.5 20.5h13M15 9h1.6a1.9 1.9 0 0 1 1.9 1.9v4.4a1.2 1.2 0 0 0 2.4 0V8.6L18.6 6.4"/><path d="m10.6 7.2-2.1 3.4h3l-2.1 3.4"/></symbol>
+  <symbol id="i-generator" viewBox="0 0 24 24"><rect x="2.8" y="7" width="18.4" height="11" rx="1.8"/><path d="M6 18v2.5M18 18v2.5M8 7V4.5h5V7"/><path d="m12.9 9.3-2.3 3.4h3l-2.3 3.4"/></symbol>
+  <symbol id="i-surge" viewBox="0 0 24 24"><path d="M12 3.2 19 6v5.3c0 4.6-3 8.3-7 9.6-4-1.3-7-5-7-9.6V6l7-2.8Z"/><path d="m13 7.6-2.6 4.3h3.3L11 16.4"/></symbol>
+  <symbol id="i-bulb" viewBox="0 0 24 24"><path d="M9.2 17.5h5.6M10 20.8h4M12 3a6.2 6.2 0 0 0-3.8 11.1c.7.6 1 1.3 1 2.1v1.3h5.6v-1.3c0-.8.3-1.5 1-2.1A6.2 6.2 0 0 0 12 3Z"/></symbol>
+  <symbol id="i-fan" viewBox="0 0 24 24"><path d="M12 3v3M9 6h6v2.2a3 3 0 0 1-6 0Z"/><path d="M9 7.4 3.1 8.9a1.05 1.05 0 0 0 .3 2.1H9M15 7.4l5.9 1.5a1.05 1.05 0 0 1-.3 2.1H15"/><path d="M12 14.6v2.2M9.4 13.9l-1.3 1.8M14.6 13.9l1.3 1.8"/></symbol>
+  <symbol id="i-pool" viewBox="0 0 24 24"><path d="M8 14V5.2a2.2 2.2 0 0 1 4.3-.6M15.5 14V5.2a2.2 2.2 0 0 1 4.3-.6M8 8h7.5M8 11.3h7.5"/><path d="M2.5 17.2c1.6 1.3 3.2 1.3 4.8 0s3.2-1.3 4.7 0 3.2 1.3 4.8 0 3.2-1.3 4.7 0M2.5 20.7c1.6 1.3 3.2 1.3 4.8 0s3.2-1.3 4.7 0 3.2 1.3 4.8 0 3.2-1.3 4.7 0"/></symbol>
+  <symbol id="i-meter" viewBox="0 0 24 24"><rect x="5.5" y="2.8" width="13" height="18.4" rx="2.2"/><rect x="8" y="5.3" width="8" height="4.4" rx=".9"/><circle cx="12" cy="15" r="2.9"/><path d="m12 15 1.6-1.6"/></symbol>
+</svg>
+
+<div class="topbar">
+  <div class="container topbar__inner">
+    <p class="topbar__item"><span class="pulse" aria-hidden="true"></span>Emergency line open 24/7. A licensed electrician answers.</p>
+    <ul class="topbar__list">
+      <li><svg class="icon"><use href="#i-phone"/></svg><a href="tel:+19545550162">(954) 555-0162</a></li>
+      <li><svg class="icon"><use href="#i-mail"/></svg><a href="mailto:hello@sparkelectricfl.com">hello@sparkelectricfl.com</a></li>
+      <li><svg class="icon"><use href="#i-pin"/></svg>Serving South Florida</li>
+    </ul>
+  </div>
+</div>
+
+<header class="header" data-header>
+  <div class="container header__inner">
+    <a class="brand" href="#top">
+      <img src="images/logo-light.svg" alt="SparkElectric Florida" width="542" height="148">
+    </a>
+
+    <nav class="nav" id="site-nav" aria-label="Main">
+      <ul class="nav__list">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#process">How It Works</a></li>
+        <li><a href="#why">Why Us</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#areas">Service Area</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+      <div class="nav__cta">
+        <a class="btn btn--primary btn--lg" href="#quote">Get a Free Quote</a>
+        <a class="btn btn--ghost btn--lg" href="tel:+19545550162"><svg class="icon"><use href="#i-phone"/></svg>(954) 555-0162</a>
+      </div>
+    </nav>
+
+    <div class="header__actions">
+      <a class="header__phone" href="tel:+19545550162">
+        <span class="header__phone-icon"><svg class="icon"><use href="#i-phone"/></svg></span>
+        <span><small>24/7 emergency line</small>(954) 555-0162</span>
+      </a>
+      <a class="btn btn--primary header__cta" href="#quote">Free Quote</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============================== HERO ============================== -->
+  <section class="hero" id="top" data-hero>
+    <div class="hero__sky" aria-hidden="true"></div>
+
+    <div class="container hero__grid">
+      <div class="hero__copy">
+        <p class="hero__badge"><span class="pulse" aria-hidden="true"></span>Licensed electricians, on call 24/7</p>
+        <h1 class="hero__title">Keeping Florida <span class="hero__script neon-text neon-text--pink" style="--d: 1.25s">bright.</span></h1>
+        <p class="hero__lead">Panel upgrades, EV chargers, generators and same-day repairs across South Florida. Every job is done by a licensed electrician, priced upfront and backed in writing.</p>
+        <div class="hero__ctas">
+          <a class="btn btn--primary btn--lg" href="#quote">Get a Free Quote<svg class="icon"><use href="#i-arrow"/></svg></a>
+          <a class="btn btn--ghost btn--lg" href="tel:+19545550162"><svg class="icon"><use href="#i-phone"/></svg>(954) 555-0162</a>
+        </div>
+        <ul class="hero__proof">
+          <li><strong>4.9<svg class="icon icon--star" aria-hidden="true"><use href="#star-shape"/></svg></strong><span>610+ Google reviews</span></li>
+          <li><strong>4,200+</strong><span>South Florida jobs</span></li>
+          <li><strong>24/7</strong><span>Emergency service</span></li>
+        </ul>
+      </div>
+
+      <!-- The neon sign: glass tubes are always drawn; the lit tubes flicker on once the fonts are ready -->
+      <div class="hero__visual" aria-hidden="true">
+        <div class="sign">
+          <i class="sign__screw"></i><i class="sign__screw"></i><i class="sign__screw"></i><i class="sign__screw"></i>
+          <svg class="sign__art" viewBox="4 6 94 94">
+            <g class="sign__glass" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke-width="7" d="M56 40C44 27 25 26 11 42M56 40C50 23 37 13 22 13M56 40C62 22 75 14 89 17M56 40C69 29 85 31 93 47"/>
+              <path stroke-width="8" d="M56 44 45 66H56L43 93"/>
+            </g>
+            <g class="tube" style="--d: .35s" filter="url(#neon-glow)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="#3DF2F0" stroke-width="7" d="M56 40C44 27 25 26 11 42M56 40C50 23 37 13 22 13M56 40C62 22 75 14 89 17M56 40C69 29 85 31 93 47"/>
+              <path stroke="#D8FFFE" stroke-width="2.4" d="M56 40C44 27 25 26 11 42M56 40C50 23 37 13 22 13M56 40C62 22 75 14 89 17M56 40C69 29 85 31 93 47"/>
+            </g>
+            <g class="tube" style="--d: .8s" filter="url(#neon-glow)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="#FF5C8D" stroke-width="8" d="M56 44 45 66H56L43 93"/>
+              <path stroke="#FFD9E4" stroke-width="2.6" d="M56 44 45 66H56L43 93"/>
+            </g>
+            <path class="sign__pulse" pathLength="100" d="M56 44 45 66H56L43 93"/>
+          </svg>
+          <p class="sign__open"><span class="neon-text neon-text--aqua" style="--d: 1.6s">Open</span><span class="neon-text neon-text--pink" style="--d: 1.9s">24/7</span></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Miami Deco skyline at night: low on the left under the copy, rising towards the sign -->
+    <svg class="hero__skyline" viewBox="0 0 1920 240" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+      <path class="skyline__far" d="M0 240V196H40V178H76V190H118V168H150V184H196V172H232V188H280V160H318V178H356V166H392V182H440V170H486V184H520V158H556V176H598V164H640V180H690V154H726V170H770V150H804V168H850V156H890V172H930V140H962V160H1000V132H1040V150H1080V120H1110V142H1150V116H1190V136H1230V104H1262V126H1300V112H1340V130H1380V96H1414V118H1450V106H1490V124H1530V92H1566V112H1600V80H1636V104H1676V88H1716V110H1756V96H1800V118H1840V100H1880V122H1920V240Z"/>
+      <path class="skyline__near" d="M0 240V150H120A30 30 0 0 1 150 180V240ZM165 240V184H184V172H203V160H247V172H266V184H285V240ZM330 240V152H530V240ZM545 240V190.0A32.0 32.0 0 0 1 609 190.0V240ZM618 240V186H642V174H666V162H720V174H744V186H768V240ZM800 240V164Q800 146 818 146H972Q990 146 990 164V240ZM1010 240V114H1024V98H1056.0V80L1065.0 62L1074.0 80V98H1106V114H1120V240ZM1135 240V122H1305V240ZM1205.0 122V88H1235.0V122ZM1335 240V128H1361V116H1387V104H1443V116H1469V128H1495V240ZM1505 240V132H1635V240ZM1645 240V80H1659V64H1696.0V46L1705.0 28L1714.0 46V64H1751V80H1765V240ZM1780 240V138A30 30 0 0 1 1810 108H1920V240Z"/>
+      <path class="skyline__lines" d="M0 183H150M0 203H150M0 223H150M800 179H990M800 199H990M800 219H990M800 239H990M1024 98H1106M1220.0 88V62M1659 64H1751M1780 141H1920M1780 161H1920M1780 181H1920M1780 201H1920M1780 221H1920"/>
+      <g class="skyline__win skyline__win--off"><rect x="12" y="170" width="42" height="6"/><rect x="64" y="170" width="42" height="6"/><rect x="116" y="170" width="20" height="6"/><rect x="12" y="190" width="42" height="6"/><rect x="64" y="190" width="42" height="6"/><rect x="116" y="190" width="20" height="6"/><rect x="64" y="210" width="42" height="6"/><rect x="116" y="210" width="20" height="6"/><rect x="176" y="174" width="7" height="10"/><rect x="248" y="174" width="7" height="10"/><rect x="266" y="174" width="7" height="10"/><rect x="194" y="194" width="7" height="10"/><rect x="212" y="194" width="7" height="10"/><rect x="230" y="194" width="7" height="10"/><rect x="248" y="194" width="7" height="10"/><rect x="194" y="214" width="7" height="10"/><rect x="341" y="166" width="7" height="10"/><rect x="359" y="166" width="7" height="10"/><rect x="377" y="166" width="7" height="10"/><rect x="395" y="166" width="7" height="10"/><rect x="413" y="166" width="7" height="10"/><rect x="449" y="166" width="7" height="10"/><rect x="467" y="166" width="7" height="10"/><rect x="485" y="166" width="7" height="10"/><rect x="341" y="186" width="7" height="10"/><rect x="359" y="186" width="7" height="10"/><rect x="377" y="186" width="7" height="10"/><rect x="395" y="186" width="7" height="10"/><rect x="503" y="186" width="7" height="10"/><rect x="341" y="206" width="7" height="10"/><rect x="359" y="206" width="7" height="10"/><rect x="395" y="206" width="7" height="10"/><rect x="413" y="206" width="7" height="10"/><rect x="485" y="206" width="7" height="10"/><rect x="503" y="206" width="7" height="10"/><rect x="629" y="176" width="7" height="10"/><rect x="647" y="176" width="7" height="10"/><rect x="683" y="176" width="7" height="10"/><rect x="701" y="176" width="7" height="10"/><rect x="647" y="196" width="7" height="10"/><rect x="665" y="196" width="7" height="10"/><rect x="629" y="216" width="7" height="10"/><rect x="665" y="216" width="7" height="10"/><rect x="683" y="216" width="7" height="10"/><rect x="719" y="216" width="7" height="10"/><rect x="812" y="166" width="42" height="6"/><rect x="916" y="166" width="42" height="6"/><rect x="864" y="186" width="42" height="6"/><rect x="916" y="186" width="42" height="6"/><rect x="812" y="206" width="42" height="6"/><rect x="916" y="206" width="42" height="6"/><rect x="968" y="206" width="8" height="6"/><rect x="812" y="226" width="42" height="6"/><rect x="916" y="226" width="42" height="6"/><rect x="1039" y="128" width="7" height="10"/><rect x="1039" y="148" width="7" height="10"/><rect x="1075" y="148" width="7" height="10"/><rect x="1021" y="168" width="7" height="10"/><rect x="1039" y="168" width="7" height="10"/><rect x="1057" y="168" width="7" height="10"/><rect x="1075" y="168" width="7" height="10"/><rect x="1093" y="168" width="7" height="10"/><rect x="1057" y="188" width="7" height="10"/><rect x="1075" y="188" width="7" height="10"/><rect x="1039" y="208" width="7" height="10"/><rect x="1057" y="208" width="7" height="10"/><rect x="1093" y="208" width="7" height="10"/><rect x="1146" y="136" width="7" height="10"/><rect x="1164" y="136" width="7" height="10"/><rect x="1182" y="136" width="7" height="10"/><rect x="1236" y="136" width="7" height="10"/><rect x="1272" y="136" width="7" height="10"/><rect x="1146" y="156" width="7" height="10"/><rect x="1164" y="156" width="7" height="10"/><rect x="1218" y="156" width="7" height="10"/><rect x="1272" y="156" width="7" height="10"/><rect x="1290" y="156" width="7" height="10"/><rect x="1146" y="176" width="7" height="10"/><rect x="1182" y="176" width="7" height="10"/><rect x="1254" y="176" width="7" height="10"/><rect x="1164" y="196" width="7" height="10"/><rect x="1218" y="196" width="7" height="10"/><rect x="1236" y="196" width="7" height="10"/><rect x="1254" y="196" width="7" height="10"/><rect x="1272" y="196" width="7" height="10"/><rect x="1290" y="196" width="7" height="10"/><rect x="1200" y="216" width="7" height="10"/><rect x="1218" y="216" width="7" height="10"/><rect x="1236" y="216" width="7" height="10"/><rect x="1272" y="216" width="7" height="10"/><rect x="1290" y="216" width="7" height="10"/><rect x="1346" y="118" width="7" height="10"/><rect x="1382" y="118" width="7" height="10"/><rect x="1418" y="118" width="7" height="10"/><rect x="1436" y="118" width="7" height="10"/><rect x="1454" y="118" width="7" height="10"/><rect x="1472" y="118" width="7" height="10"/><rect x="1346" y="138" width="7" height="10"/><rect x="1364" y="138" width="7" height="10"/><rect x="1382" y="138" width="7" height="10"/><rect x="1418" y="138" width="7" height="10"/><rect x="1436" y="138" width="7" height="10"/><rect x="1454" y="138" width="7" height="10"/><rect x="1472" y="138" width="7" height="10"/><rect x="1346" y="158" width="7" height="10"/><rect x="1364" y="158" width="7" height="10"/><rect x="1382" y="158" width="7" height="10"/><rect x="1400" y="158" width="7" height="10"/><rect x="1436" y="158" width="7" height="10"/><rect x="1454" y="158" width="7" height="10"/><rect x="1346" y="178" width="7" height="10"/><rect x="1364" y="178" width="7" height="10"/><rect x="1382" y="178" width="7" height="10"/><rect x="1400" y="178" width="7" height="10"/><rect x="1436" y="178" width="7" height="10"/><rect x="1454" y="178" width="7" height="10"/><rect x="1472" y="178" width="7" height="10"/><rect x="1346" y="198" width="7" height="10"/><rect x="1382" y="198" width="7" height="10"/><rect x="1418" y="198" width="7" height="10"/><rect x="1436" y="198" width="7" height="10"/><rect x="1472" y="198" width="7" height="10"/><rect x="1346" y="218" width="7" height="10"/><rect x="1364" y="218" width="7" height="10"/><rect x="1382" y="218" width="7" height="10"/><rect x="1454" y="218" width="7" height="10"/><rect x="1534" y="146" width="7" height="10"/><rect x="1552" y="146" width="7" height="10"/><rect x="1588" y="146" width="7" height="10"/><rect x="1606" y="146" width="7" height="10"/><rect x="1534" y="166" width="7" height="10"/><rect x="1588" y="166" width="7" height="10"/><rect x="1606" y="166" width="7" height="10"/><rect x="1516" y="186" width="7" height="10"/><rect x="1534" y="186" width="7" height="10"/><rect x="1588" y="186" width="7" height="10"/><rect x="1534" y="206" width="7" height="10"/><rect x="1552" y="206" width="7" height="10"/><rect x="1588" y="206" width="7" height="10"/><rect x="1606" y="206" width="7" height="10"/><rect x="1656" y="94" width="7" height="10"/><rect x="1710" y="94" width="7" height="10"/><rect x="1656" y="114" width="7" height="10"/><rect x="1674" y="114" width="7" height="10"/><rect x="1692" y="114" width="7" height="10"/><rect x="1728" y="114" width="7" height="10"/><rect x="1746" y="114" width="7" height="10"/><rect x="1656" y="134" width="7" height="10"/><rect x="1710" y="134" width="7" height="10"/><rect x="1746" y="134" width="7" height="10"/><rect x="1656" y="154" width="7" height="10"/><rect x="1692" y="154" width="7" height="10"/><rect x="1746" y="154" width="7" height="10"/><rect x="1674" y="174" width="7" height="10"/><rect x="1746" y="174" width="7" height="10"/><rect x="1656" y="194" width="7" height="10"/><rect x="1674" y="194" width="7" height="10"/><rect x="1692" y="194" width="7" height="10"/><rect x="1710" y="194" width="7" height="10"/><rect x="1728" y="194" width="7" height="10"/><rect x="1746" y="194" width="7" height="10"/><rect x="1674" y="214" width="7" height="10"/><rect x="1728" y="214" width="7" height="10"/><rect x="1746" y="214" width="7" height="10"/><rect x="1792" y="148" width="42" height="6"/><rect x="1844" y="148" width="42" height="6"/><rect x="1896" y="148" width="10" height="6"/><rect x="1792" y="168" width="42" height="6"/><rect x="1844" y="168" width="42" height="6"/><rect x="1896" y="168" width="10" height="6"/><rect x="1792" y="188" width="42" height="6"/><rect x="1896" y="188" width="10" height="6"/><rect x="1792" y="208" width="42" height="6"/><rect x="1896" y="208" width="10" height="6"/><circle cx="577" cy="212" r="5"/><circle cx="577" cy="238" r="5"/></g>
+      <g class="skyline__win skyline__win--warm"><rect x="12" y="210" width="42" height="6"/><rect x="194" y="174" width="7" height="10"/><rect x="230" y="174" width="7" height="10"/><rect x="176" y="194" width="7" height="10"/><rect x="266" y="194" width="7" height="10"/><rect x="176" y="214" width="7" height="10"/><rect x="212" y="214" width="7" height="10"/><rect x="230" y="214" width="7" height="10"/><rect x="248" y="214" width="7" height="10"/><rect x="266" y="214" width="7" height="10"/><rect x="503" y="166" width="7" height="10"/><rect x="449" y="186" width="7" height="10"/><rect x="467" y="186" width="7" height="10"/><rect x="485" y="186" width="7" height="10"/><rect x="449" y="206" width="7" height="10"/><rect x="467" y="206" width="7" height="10"/><rect x="665" y="176" width="7" height="10"/><rect x="719" y="176" width="7" height="10"/><rect x="737" y="176" width="7" height="10"/><rect x="683" y="196" width="7" height="10"/><rect x="701" y="196" width="7" height="10"/><rect x="719" y="196" width="7" height="10"/><rect x="737" y="196" width="7" height="10"/><rect x="647" y="216" width="7" height="10"/><rect x="701" y="216" width="7" height="10"/><rect x="737" y="216" width="7" height="10"/><rect x="864" y="166" width="42" height="6"/><rect x="968" y="166" width="8" height="6"/><rect x="812" y="186" width="42" height="6"/><rect x="864" y="206" width="42" height="6"/><rect x="864" y="226" width="42" height="6"/><rect x="968" y="226" width="8" height="6"/><rect x="1021" y="128" width="7" height="10"/><rect x="1075" y="128" width="7" height="10"/><rect x="1093" y="128" width="7" height="10"/><rect x="1021" y="148" width="7" height="10"/><rect x="1057" y="148" width="7" height="10"/><rect x="1021" y="188" width="7" height="10"/><rect x="1039" y="188" width="7" height="10"/><rect x="1093" y="188" width="7" height="10"/><rect x="1021" y="208" width="7" height="10"/><rect x="1075" y="208" width="7" height="10"/><rect x="1200" y="136" width="7" height="10"/><rect x="1218" y="136" width="7" height="10"/><rect x="1254" y="136" width="7" height="10"/><rect x="1290" y="136" width="7" height="10"/><rect x="1182" y="156" width="7" height="10"/><rect x="1200" y="156" width="7" height="10"/><rect x="1236" y="156" width="7" height="10"/><rect x="1254" y="156" width="7" height="10"/><rect x="1164" y="176" width="7" height="10"/><rect x="1200" y="176" width="7" height="10"/><rect x="1218" y="176" width="7" height="10"/><rect x="1236" y="176" width="7" height="10"/><rect x="1272" y="176" width="7" height="10"/><rect x="1290" y="176" width="7" height="10"/><rect x="1182" y="196" width="7" height="10"/><rect x="1146" y="216" width="7" height="10"/><rect x="1164" y="216" width="7" height="10"/><rect x="1182" y="216" width="7" height="10"/><rect x="1254" y="216" width="7" height="10"/><rect x="1400" y="118" width="7" height="10"/><rect x="1472" y="158" width="7" height="10"/><rect x="1364" y="198" width="7" height="10"/><rect x="1400" y="198" width="7" height="10"/><rect x="1454" y="198" width="7" height="10"/><rect x="1400" y="218" width="7" height="10"/><rect x="1418" y="218" width="7" height="10"/><rect x="1472" y="218" width="7" height="10"/><rect x="1516" y="146" width="7" height="10"/><rect x="1552" y="166" width="7" height="10"/><rect x="1516" y="206" width="7" height="10"/><rect x="1674" y="94" width="7" height="10"/><rect x="1692" y="94" width="7" height="10"/><rect x="1728" y="94" width="7" height="10"/><rect x="1746" y="94" width="7" height="10"/><rect x="1674" y="134" width="7" height="10"/><rect x="1692" y="134" width="7" height="10"/><rect x="1728" y="134" width="7" height="10"/><rect x="1710" y="154" width="7" height="10"/><rect x="1728" y="154" width="7" height="10"/><rect x="1656" y="174" width="7" height="10"/><rect x="1692" y="174" width="7" height="10"/><rect x="1710" y="174" width="7" height="10"/><rect x="1728" y="174" width="7" height="10"/><rect x="1656" y="214" width="7" height="10"/><rect x="1692" y="214" width="7" height="10"/><rect x="1710" y="214" width="7" height="10"/><rect x="1792" y="128" width="42" height="6"/><rect x="1844" y="128" width="42" height="6"/><rect x="1844" y="188" width="42" height="6"/><rect x="1844" y="208" width="42" height="6"/></g>
+      <g class="skyline__win skyline__win--pink"><rect x="212" y="174" width="7" height="10"/><rect x="413" y="186" width="7" height="10"/><rect x="629" y="196" width="7" height="10"/><rect x="968" y="186" width="8" height="6"/><rect x="1057" y="128" width="7" height="10"/><rect x="1364" y="118" width="7" height="10"/><rect x="1436" y="218" width="7" height="10"/><rect x="1516" y="166" width="7" height="10"/><rect x="1606" y="186" width="7" height="10"/><rect x="1710" y="114" width="7" height="10"/><rect x="1674" y="154" width="7" height="10"/><rect x="1896" y="128" width="10" height="6"/></g>
+      <g class="skyline__win skyline__win--aqua"><rect x="377" y="206" width="7" height="10"/><rect x="1093" y="148" width="7" height="10"/><rect x="1146" y="196" width="7" height="10"/><rect x="1200" y="196" width="7" height="10"/><rect x="1400" y="138" width="7" height="10"/><rect x="1418" y="158" width="7" height="10"/><rect x="1418" y="178" width="7" height="10"/><rect x="1552" y="186" width="7" height="10"/></g>
+      <g class="skyline__neon" filter="url(#neon-soft)">
+        <path class="skyline__neon--aqua" d="M0 150H120A30 30 0 0 1 150 180M330 152H530M545 190.0A32.0 32.0 0 0 1 609 190.0M800 164Q800 146 818 146H972Q990 146 990 164M1205.0 120V90H1235.0V120M1505 132H1635M1705.0 44V72"/>
+        <path class="skyline__neon--pink" d="M165 184H184V172H203V160H247V172H266V184H285M618 186H642V174H666V162H720V174H744V186H768M1065.0 78V106M1335 128H1361V116H1387V104H1443V116H1469V128H1495M1780 138A30 30 0 0 1 1810 108H1920"/>
+        <rect class="skyline__neon--pink skyline__blade" x="424.0" y="168" width="12" height="56" rx="3"/><rect class="skyline__neon--pink skyline__blade" x="1564.0" y="148" width="12" height="56" rx="3"/>
+      </g>
+      <circle class="skyline__beacon" cx="1220.0" cy="60" r="3"/>
+      <g class="skyline__palms"><use href="#palm" transform="translate(300 152) scale(0.58)"/><use href="#palm" transform="translate(790 142) scale(0.6)"/><use href="#palm" transform="translate(1318 128) scale(0.7)"/><use href="#palm" transform="translate(1622 150) scale(0.56)"/><use href="#palm" transform="translate(1902 128) scale(0.7)"/></g>
+    </svg>
+  </section>
+
+  <!-- ============================== MARQUEE ============================== -->
+  <div class="marquee" role="region" aria-label="What we offer">
+    <div class="marquee__track">
+      <ul class="marquee__list">
+        <li>24/7 emergency service</li>
+        <li>Panel upgrades</li>
+        <li>EV chargers</li>
+        <li>Whole-home generators</li>
+        <li>Surge protection</li>
+        <li>Licensed &amp; insured</li>
+      </ul>
+      <ul class="marquee__list" aria-hidden="true">
+        <li>24/7 emergency service</li>
+        <li>Panel upgrades</li>
+        <li>EV chargers</li>
+        <li>Whole-home generators</li>
+        <li>Surge protection</li>
+        <li>Licensed &amp; insured</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ============================== TRUST ============================== -->
+  <section class="trust" aria-label="Why homeowners choose us">
+    <div class="container trust__grid">
+      <div class="trust__item"><span class="trust__icon"><svg class="icon"><use href="#i-shield"/></svg></span><p><strong>Licensed &amp; insured</strong>State-certified electrical contractor.</p></div>
+      <div class="trust__item"><span class="trust__icon"><svg class="icon"><use href="#i-clock"/></svg></span><p><strong>24/7 emergency line</strong>A licensed electrician answers.</p></div>
+      <div class="trust__item"><span class="trust__icon"><svg class="icon"><use href="#i-tag"/></svg></span><p><strong>Flat-rate pricing</strong>You approve the price first.</p></div>
+      <div class="trust__item"><span class="trust__icon"><svg class="icon"><use href="#i-award"/></svg></span><p><strong>2-year warranty</strong>On our workmanship, in writing.</p></div>
+    </div>
+  </section>
+
+  <!-- ============================== SERVICES ============================== -->
+  <section class="section section--blush" id="services">
+    <div class="container">
+      <header class="section-head" data-reveal>
+        <p class="eyebrow">What we do</p>
+        <h2>Everything electric, <span class="script">done right</span></h2>
+        <p>From a dead outlet to a full panel upgrade, one licensed team handles the diagnosis, the permits and the work.</p>
+      </header>
+      <ul class="services">
+        <li class="service" data-reveal><span class="service__icon"><svg class="icon"><use href="#i-panel"/></svg></span><h3>Panel Upgrades</h3><p>Swap out Federal Pacific, Zinsco and fuse panels, or step up to 200-amp service for today’s loads.</p></li>
+        <li class="service" data-reveal style="--d:1"><span class="service__icon"><svg class="icon"><use href="#i-ev"/></svg></span><h3>EV Chargers</h3><p>Level 2 home chargers for any make, on a dedicated circuit with the permit and load check handled.</p></li>
+        <li class="service" data-reveal style="--d:2"><span class="service__icon"><svg class="icon"><use href="#i-generator"/></svg></span><h3>Generators</h3><p>Standby generators and transfer switches, so hurricane season doesn’t mean days in the dark.</p></li>
+        <li class="service" data-reveal style="--d:3"><span class="service__icon"><svg class="icon"><use href="#i-surge"/></svg></span><h3>Surge Protection</h3><p>Florida sees more lightning per square mile than any other state. Whole-home protection guards every appliance.</p></li>
+        <li class="service" data-reveal><span class="service__icon"><svg class="icon"><use href="#i-bulb"/></svg></span><h3>Lighting</h3><p>Recessed, under-cabinet and landscape lighting, designed to set the mood and trim the power bill.</p></li>
+        <li class="service" data-reveal style="--d:1"><span class="service__icon"><svg class="icon"><use href="#i-fan"/></svg></span><h3>Ceiling Fans</h3><p>New fans on fan-rated boxes, balanced and wired to wall controls. A Florida essential.</p></li>
+        <li class="service" data-reveal style="--d:2"><span class="service__icon"><svg class="icon"><use href="#i-pool"/></svg></span><h3>Pool &amp; Spa</h3><p>Pumps, heaters, lights and bonding, wired to code by electricians who know wet locations.</p></li>
+        <li class="service" data-reveal style="--d:3"><span class="service__icon"><svg class="icon"><use href="#i-meter"/></svg></span><h3>Repairs</h3><p>Flickering lights, tripping breakers and dead outlets, traced to the source and fixed right.</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============================== EMERGENCY ============================== -->
+  <section class="emergency" aria-labelledby="emergency-title">
+    <div class="container emergency__inner">
+      <span class="emergency__icon" aria-hidden="true"><svg class="icon"><use href="#i-alert"/></svg></span>
+      <div>
+        <p class="emergency__kicker"><span class="pulse" aria-hidden="true"></span>24/7 emergency electrician</p>
+        <h2 id="emergency-title">Sparks, a burning smell or no power?</h2>
+        <p>If it’s safe, switch off the breaker and keep clear of the outlet. Then call us. A licensed electrician is on call day and night, weekends and holidays included.</p>
+      </div>
+      <a class="btn btn--primary btn--xl" href="tel:+19545550162"><svg class="icon"><use href="#i-phone"/></svg>(954) 555-0162</a>
+    </div>
+  </section>
+
+  <!-- ============================== PROCESS ============================== -->
+  <section class="section" id="process">
+    <div class="container">
+      <header class="section-head" data-reveal>
+        <p class="eyebrow">How it works</p>
+        <h2>From <span class="nowrap">“uh-oh”</span> to <span class="script">all good</span></h2>
+        <p>No runaround and no surprise invoices. Here’s what happens after you call.</p>
+      </header>
+      <ol class="steps">
+        <li class="step" data-reveal><span class="step__num">1</span><h3>Call or book online</h3><p>Tell us what’s going on. A real person answers 24/7 and books a time that suits you.</p></li>
+        <li class="step" data-reveal style="--d:1"><span class="step__num">2</span><h3>Flat-rate quote</h3><p>We arrive on time, find the problem and give you a flat price before any work starts.</p></li>
+        <li class="step" data-reveal style="--d:2"><span class="step__num">3</span><h3>Fixed to code</h3><p>A licensed electrician does the work, pulls any permits and tests everything twice.</p></li>
+        <li class="step" data-reveal style="--d:3"><span class="step__num">4</span><h3>Clean &amp; covered</h3><p>Shoe covers on, mess cleaned up, and a 2-year workmanship warranty in writing.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============================== WHY US ============================== -->
+  <section class="section section--blush" id="why">
+    <div class="container why">
+      <div class="why__copy" data-reveal>
+        <p class="eyebrow">Why SparkElectric</p>
+        <h2>Safe, bright work. <span class="script">No shortcuts.</span></h2>
+        <p>Electrical work is no place for shortcuts, so we don’t take any. Family-owned since 2013, we’ve wired thousands of South Florida homes and businesses the way we’d wire our own.</p>
+        <ul class="ticks">
+          <li><svg class="icon"><use href="#i-check"/></svg><p><strong>Licensed electricians, not handymen.</strong> Every job is done or supervised by a state-licensed pro.</p></li>
+          <li><svg class="icon"><use href="#i-check"/></svg><p><strong>Flat-rate pricing.</strong> You approve the price before we start. No hourly surprises.</p></li>
+          <li><svg class="icon"><use href="#i-check"/></svg><p><strong>Permits handled.</strong> We pull, post and pass every inspection for you.</p></li>
+          <li><svg class="icon"><use href="#i-check"/></svg><p><strong>Respect for your home.</strong> Shoe covers, drop cloths and a full clean-up, every visit.</p></li>
+        </ul>
+        <a class="btn btn--dark btn--lg" href="#quote">Get a Free Quote<svg class="icon"><use href="#i-arrow"/></svg></a>
+      </div>
+
+      <div class="spec" data-reveal style="--d:1">
+        <div class="spec__head">
+          <svg class="spec__mark" viewBox="0 0 100 100" aria-hidden="true"><g filter="url(#neon-glow)"><use href="#mark" width="100" height="100"/></g></svg>
+          <div>
+            <p>The Spark standard</p>
+            <h3>Every SparkElectric visit</h3>
+          </div>
+        </div>
+        <dl class="spec__list">
+          <div><dt>Arrival</dt><dd>Two-hour window, with a text when we’re on the way</dd></div>
+          <div><dt>Pricing</dt><dd>Flat-rate, approved by you before work begins</dd></div>
+          <div><dt>Safety check</dt><dd>Free panel and outlet check with every repair</dd></div>
+          <div><dt>Permits</dt><dd>Pulled, posted and inspected</dd></div>
+          <div><dt>Clean-up</dt><dd>Shoe covers and drop cloths, always</dd></div>
+          <div><dt>Warranty</dt><dd>2-year workmanship, in writing</dd></div>
+        </dl>
+        <div class="spec__stats">
+          <p><strong>2013</strong><span>Family-owned since</span></p>
+          <p><strong>4,200+</strong><span>Jobs completed</span></p>
+          <p><strong>4.9<svg class="icon icon--star" aria-hidden="true"><use href="#star-shape"/></svg></strong><span>Average rating</span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================== REVIEWS ============================== -->
+  <section class="section" id="reviews">
+    <div class="container">
+      <header class="section-head" data-reveal>
+        <p class="eyebrow">Customer reviews</p>
+        <h2>Rated 4.9 by <span class="script">our neighbors</span></h2>
+        <p>Here’s what South Florida homeowners say once the lights are back on.</p>
+      </header>
+      <div class="reviews">
+        <figure class="review" data-reveal>
+          <svg class="stars" role="img" aria-label="5 out of 5 stars"><use href="#i-stars"/></svg>
+          <blockquote><p>Our home inspector flagged the old Federal Pacific panel. SparkElectric swapped it in one day, handled the permit and labeled every breaker. Spotless work.</p></blockquote>
+          <figcaption><span class="avatar" aria-hidden="true">DK</span><span><strong>Daniel K.</strong>Fort Lauderdale · Panel upgrade</span></figcaption>
+        </figure>
+        <figure class="review" data-reveal style="--d:1">
+          <svg class="stars" role="img" aria-label="5 out of 5 stars"><use href="#i-stars"/></svg>
+          <blockquote><p>Half the house lost power at 10pm and an outlet started smoking. An electrician was here within the hour, found a burned neutral and fixed it on the spot.</p></blockquote>
+          <figcaption><span class="avatar" aria-hidden="true">PS</span><span><strong>Priya S.</strong>Pembroke Pines · Emergency repair</span></figcaption>
+        </figure>
+        <figure class="review" data-reveal style="--d:2">
+          <svg class="stars" role="img" aria-label="5 out of 5 stars"><use href="#i-stars"/></svg>
+          <blockquote><p>They installed our EV charger and new landscape lighting in one visit. Clean install, fair price, and the yard looks amazing at night now.</p></blockquote>
+          <figcaption><span class="avatar" aria-hidden="true">MT</span><span><strong>Marcus T.</strong>Boca Raton · EV charger &amp; lighting</span></figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================== QUOTE ============================== -->
+  <section class="section quote" id="quote">
+    <div class="container quote__inner">
+      <div class="quote__copy" data-reveal>
+        <p class="eyebrow eyebrow--light">Free, no-obligation quote</p>
+        <h2>Tell us what you need. <span class="script">We’ll light the way.</span></h2>
+        <p>Send a few details and a licensed electrician will call you back with a flat-rate price range, usually within the hour.</p>
+        <ul class="quote__contact">
+          <li><span class="quote__contact-icon"><svg class="icon"><use href="#i-phone"/></svg></span><span><small>Call or text, 24/7</small><a href="tel:+19545550162">(954) 555-0162</a></span></li>
+          <li><span class="quote__contact-icon"><svg class="icon"><use href="#i-mail"/></svg></span><span><small>Email</small><a href="mailto:hello@sparkelectricfl.com">hello@sparkelectricfl.com</a></span></li>
+          <li><span class="quote__contact-icon"><svg class="icon"><use href="#i-clock"/></svg></span><span><small>Office hours</small>Mon–Sat, 7am–7pm · Emergencies 24/7</span></li>
+        </ul>
+      </div>
+
+      <div class="quote-card" data-reveal style="--d:1">
+        <p class="rating-chip"><svg class="stars" aria-hidden="true"><use href="#i-stars"/></svg><strong>4.9</strong> from 610+ local reviews</p>
+
+        <div data-quote>
+          <h3 class="quote-card__title">Get your free quote</h3>
+          <form class="quote-form" novalidate data-quote-form>
+            <div class="field">
+              <label for="q-name">Full name</label>
+              <input id="q-name" name="name" type="text" autocomplete="name" required>
+              <span class="field__error" aria-live="polite"></span>
+            </div>
+            <div class="field-row">
+              <div class="field">
+                <label for="q-phone">Phone</label>
+                <input id="q-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="(954) 555-0100" required>
+                <span class="field__error" aria-live="polite"></span>
+              </div>
+              <div class="field">
+                <label for="q-zip">ZIP code</label>
+                <input id="q-zip" name="zip" type="text" autocomplete="postal-code" inputmode="numeric" maxlength="5" placeholder="33301" required>
+                <span class="field__error" aria-live="polite"></span>
+              </div>
+            </div>
+            <div class="field">
+              <label for="q-service">What do you need help with?</label>
+              <select id="q-service" name="service" required>
+                <option value="" selected disabled>Choose one</option>
+                <option>Panel upgrade</option>
+                <option>EV charger</option>
+                <option>Generator</option>
+                <option>Surge protection</option>
+                <option>Lighting or ceiling fans</option>
+                <option>Repair or troubleshooting</option>
+                <option>Something else</option>
+              </select>
+              <span class="field__error" aria-live="polite"></span>
+            </div>
+            <label class="check"><input type="checkbox" name="emergency"><span>It’s an emergency (sparks, burning smell or no power)</span></label>
+            <button class="btn btn--primary btn--lg btn--block" type="submit">Get My Free Quote</button>
+            <p class="quote-form__note"><svg class="icon"><use href="#i-lock"/></svg>No obligation. We never share your details.</p>
+          </form>
+        </div>
+
+        <div class="quote-success" role="status" hidden data-quote-success>
+          <span class="quote-success__icon"><svg class="icon"><use href="#i-check"/></svg></span>
+          <h3 class="quote-card__title">Request received!</h3>
+          <p>Thanks, <span data-out="name">neighbor</span>. A licensed electrician will call you at <strong data-out="phone"></strong> shortly, usually within the hour, 7 days a week.</p>
+          <button class="btn btn--dark" type="button" data-quote-reset>Send another request</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================== SERVICE AREA ============================== -->
+  <section class="section" id="areas">
+    <div class="container areas">
+      <div class="areas__copy" data-reveal>
+        <p class="eyebrow">Where we work</p>
+        <h2>Lighting up <span class="script">South Florida</span></h2>
+        <p>Our electricians cover Broward, south Palm Beach and Miami-Dade, so help is never far away. Don’t see your town? Call us. We probably cover it.</p>
+        <a class="btn btn--dark btn--lg" href="tel:+19545550162"><svg class="icon"><use href="#i-phone"/></svg>Call to check your area</a>
+      </div>
+      <ul class="areas__list" data-reveal style="--d:1">
+        <li><svg class="icon"><use href="#i-pin"/></svg>Fort Lauderdale</li>
+        <li><svg class="icon"><use href="#i-pin"/></svg>Hollywood</li>
+        <li><svg class="icon"><use href="#i-pin"/></svg>Pembroke Pines</li>
+        <li><svg class="icon"><use href="#i-pin"/></svg>Miramar</li>
+        <li><svg class="icon"><use href="#i-pin"/></svg>Weston</li>
+        <li><svg class="icon"><use href="#i-pin"/></svg>Davie</li>
+        <li><svg class="icon"><use href="#i-pin"/></svg>Plantation</li>
+        <li><svg class="icon"><use href="#i-pin"/></svg>Coral Springs</li>
+        <li><svg class="icon"><use href="#i-pin"/></svg>Pompano Beach</li>
+        <li><svg class="icon"><use href="#i-pin"/></svg>Boca Raton</li>
+        <li><svg class="icon"><use href="#i-pin"/></svg>Miami</li>
+        <li><svg class="icon"><use href="#i-pin"/></svg>Miami Beach</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============================== FAQ ============================== -->
+  <section class="section section--blush" id="faq">
+    <div class="container container--narrow">
+      <header class="section-head" data-reveal>
+        <p class="eyebrow">Good to know</p>
+        <h2>Frequently asked questions</h2>
+      </header>
+      <div class="faq" data-reveal>
+        <details class="faq__item" open>
+          <summary>Do you really answer 24/7?</summary>
+          <p>Yes. Our emergency line is answered around the clock by our own team, not a call center. For sparking, burning smells or a total loss of power, an electrician heads out right away.</p>
+        </details>
+        <details class="faq__item">
+          <summary>Are you licensed and insured?</summary>
+          <p>Yes. SparkElectric is a state-certified electrical contractor with full liability and workers’ comp coverage. Every job is done or supervised by a licensed electrician.</p>
+        </details>
+        <details class="faq__item">
+          <summary>How much does a panel upgrade cost?</summary>
+          <p>It depends on your home’s service size and what the upgrade involves. We do a free on-site assessment and give you a flat-rate price, so you know the full cost before we start. Most upgrades take a single day.</p>
+        </details>
+        <details class="faq__item">
+          <summary>Can you install my EV charger?</summary>
+          <p>Yes, for any make. We check that your panel can handle the load, run a dedicated circuit, pull the permit and mount a Level 2 charger where it’s easiest for you to plug in.</p>
+        </details>
+        <details class="faq__item">
+          <summary>Do I need a permit for electrical work?</summary>
+          <p>Most electrical work beyond simple repairs needs one in Florida. We pull the permit, schedule the inspection and handle the paperwork, so you don’t have to.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================== CTA ============================== -->
+  <section class="cta">
+    <div class="container">
+      <div class="cta__card" data-reveal data-neon>
+        <svg class="cta__mark" viewBox="0 0 100 100" aria-hidden="true"><g filter="url(#neon-glow)"><use href="#mark" width="100" height="100"/></g></svg>
+        <div class="cta__copy">
+          <h2>Lights out? <span class="script neon-text neon-text--pink" style="--d: .3s">We’re on our way.</span></h2>
+          <p>Florida’s friendliest electricians are one call away, day or night.</p>
+        </div>
+        <div class="cta__actions">
+          <a class="btn btn--primary btn--lg" href="#quote">Get a Free Quote</a>
+          <a class="btn btn--ghost btn--lg" href="tel:+19545550162"><svg class="icon"><use href="#i-phone"/></svg>(954) 555-0162</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer" id="contact">
+  <div class="container footer__grid">
+    <div class="footer__brand">
+      <img src="images/logo-light.svg" alt="SparkElectric Florida" width="542" height="148" loading="lazy">
+      <p>Licensed electricians for panel upgrades, EV chargers, generators, lighting and 24/7 emergency repairs across South Florida. Family-owned since 2013.</p>
+    </div>
+    <div>
+      <h3>Services</h3>
+      <ul>
+        <li><a href="#services">Panel upgrades</a></li>
+        <li><a href="#services">EV chargers</a></li>
+        <li><a href="#services">Generators</a></li>
+        <li><a href="#services">Surge protection</a></li>
+        <li><a href="#services">Lighting &amp; fans</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Company</h3>
+      <ul>
+        <li><a href="#process">How it works</a></li>
+        <li><a href="#why">Why SparkElectric</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#areas">Service area</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Contact</h3>
+      <ul class="footer__contact">
+        <li><svg class="icon"><use href="#i-phone"/></svg><a href="tel:+19545550162">(954) 555-0162</a></li>
+        <li><svg class="icon"><use href="#i-mail"/></svg><a href="mailto:hello@sparkelectricfl.com">hello@sparkelectricfl.com</a></li>
+        <li><svg class="icon"><use href="#i-clock"/></svg><span>Emergency line open 24/7<br>Office: Mon–Sat, 7am–7pm</span></li>
+        <li><svg class="icon"><use href="#i-pin"/></svg><span>Fort Lauderdale, Florida</span></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer__bottom">
+    <p>© <span data-year>2026</span> SparkElectric. All rights reserved.</p>
+    <p>State-certified electrical contractor · Licensed &amp; insured</p>
+  </div>
+</footer>
+
+<div class="mobile-bar">
+  <a class="btn btn--light" href="tel:+19545550162"><svg class="icon"><use href="#i-phone"/></svg>Call 24/7</a>
+  <a class="btn btn--primary" href="#quote">Free quote</a>
+</div>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>
